@@ -2,8 +2,8 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "Tip Deflection",
-      "path": "Data_tipdeflection.csv",
+      "name": "tip-deflection",
+      "path": "data/Data_tipdeflection.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -36,8 +36,8 @@
       }
     },
     {
-      "name": "Powercurve",
-      "path": "Data_powercurve.csv",
+      "name": "powercurve",
+      "path": "data/Data_powercurve.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
