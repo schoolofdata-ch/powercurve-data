@@ -1,0 +1,88 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "Tip Deflection",
+      "path": "Data_tipdeflection.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Average wind speed (m/s)",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Average tip deflection out-of-plane (m)",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Average tip deflection in-plane (m)",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Input turbulence intensity (%)",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Input alpha",
+            "type": "number",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Powercurve",
+      "path": "Data_powercurve.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Average wind speed (m/s)",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Average power (kW)",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Input turbulence intensity (%)",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Input alpha",
+            "type": "number",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "energy"
+  ],
+  "name": "powercurve",
+  "title": "Wind Turbine Power Curves",
+  "description": "Simulated powers of the NREL 5MW reference wind turbine from the simulation tool ASHES at a range of different atmospheric conditions",
+  "homepage": "https://hack.opendata.ch/project/471",
+  "contributors": [
+    {
+      "title": "Sarah Barber",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "ODC-BY-1.0",
+      "title": "Open Data Commons Attribution License 1.0",
+      "path": "http://www.opendefinition.org/licenses/odc-by"
+    }
+  ]
+}
